@@ -7,5 +7,4 @@ def helloworld(request):
 
 
 def mainpage(request):
-    print(STATIC_ROOT)
     return render(request, 'mainpage.html')
